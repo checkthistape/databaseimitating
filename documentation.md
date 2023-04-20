@@ -1,4 +1,4 @@
-**databaseimitating** by checkhtistape
+**databaseimitating** by <a href="https://github.com/checkthistape">checkhtistape</a>
 
 https://github.com/checkthistape/databaseimitating
 _______________________________
@@ -45,4 +45,4 @@ Program has been separated on the two parts:
 <p>Wow</p>
 
 _______________________________
-by checkhtistape
+by <a href="https://github.com/checkthistape">checkhtistape</a>
