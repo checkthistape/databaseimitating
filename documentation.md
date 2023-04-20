@@ -55,6 +55,7 @@ Example:
 while(true){
 	cin>>userRequest;
 	if(userRequest=="*help"){...}
+	...
 } 
 ```
 
