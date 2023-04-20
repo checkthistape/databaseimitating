@@ -45,4 +45,4 @@ Program has been separated on the two parts:
 <p>Wow</p>
 
 _______________________________
-by checkthistape(https://github.com/checkthistape)
+by [checkthistape](https://github.com/checkthistape)
