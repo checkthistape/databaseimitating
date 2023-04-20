@@ -1,7 +1,7 @@
 # databaseimitating
 [**databaseimitating**](https://github.com/checkthistape/databaseimitating) by [checkhtistape](https://github.com/checkthistape)
 _______________________________
-**:LORE:**
+<h1>**:LORE:**</h1>
 
 Originally this project had to be a solution of the school task,
 but during the problem solving _*(It should be system which can
