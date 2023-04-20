@@ -67,7 +67,7 @@ default set up value which has been set up on "C:\Users\Public\Documents\"
 because of user folder permission. But you can also change the address,
 it's possible using **changeadress()** function (***changeadress** input command).
 After all the work done you have file with which you can do different acts
-such as open and view the file, add data, delete file and another.
+such as open and view the file, add data, delete file and another.<br>
 ( try *help command ʕ•́ᴥ•̀ʔっ )
 
 _______________________________
