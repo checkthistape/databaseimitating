@@ -66,7 +66,7 @@ while(true){
 file, and there are two ways of continuing: by using **selectfile()**
 function (***selectfile** input command) or by using **databasecreate()**
 function (***dbcreate** input command). In both ways, the program uses
-default set up value, which has been set up on "C:\Users\Public\Documents\"
+default set up value, which has been set up on **"C:\Users\Public\Documents\"**
 because of user folder permissions. But you can also change the address,
 it's possible using the **changeadress()** function (***changeadress** input command).
 After all the work is done, you have a file with which you can do different acts
