@@ -7,14 +7,13 @@
 _______________________________
 <h3>:LORE:</h3>
 
-Originally this project had to be a solution of the school task,
-but during the problem solving _*(It should be system which can
-create, update, search and delete requests with the list of
-variables *[id, Name, Surname, Job, Salary]* like in databases so
-because of it I've named this project like **databaseimitating**)*_
-I was expanding the functionality of the **databaseimitating** class
-until it looked more like a notepad program class. Regardless it's possible to
-use my program like a very basic notepad utility.
+Originally, this project had to be a solution to the school task,
+but during the problem solving _*(it should be a system that can
+create, update, search, and delete requests with a list of variables
+*[id, Name, Surname, Job, Salary]* like in databases, so because of that,
+I've named this project **databaseimitating**)*_, I was expanding the functionality
+of the **databaseimitating** class until it looked more like a notepad program class.
+Regardless, it's possible to use my program like a very basic notepad utility.
 
 <h3>:FUNCTIONALITY:</h3>
 
@@ -45,14 +44,14 @@ Program has been separated into the two parts:<br>
 <br> - [databaseimitationclass.hpp](https://github.com/checkthistape/databaseimitating/blob/main/headers/databaseimitationclass.hpp) header class file
 <br> - [databaseimitate.cpp](https://github.com/checkthistape/databaseimitating/blob/main/databaseimitate.cpp) main function file
 
-All functions and functionality of project is placed
-in **.hpp** header class file. Meanwhile in main **.cpp** file
-I placed only the project's declaration. So describing of code's
+All functions and functionality of the project are placed
+in the **.hpp** header class file. Meanwhile in the main **.cpp** file
+I only placed the project's declaration. So describing the code's
 logic. *(like it supposed to be)*
 
-- There is a while loop in **.cpp** file which catches user
-requests until the program ends using a very plain concept.
-*(list of commands you can see slightly above this text)*
+- There is a while loop in the **.cpp** file that catches the
+user requests until the program ends, using a very simple concept. 
+*(list of commands is slightly above this text)*
 
 Example:
 ```c++
@@ -63,15 +62,15 @@ while(true){
 } 
 ```
 
-- For functional use of the program user needs to create or select
-file and there are two ways of continuing: by using **selectfile()**
+- For functional use of the program, the user needs to create or select
+file, and there are two ways of continuing: by using **selectfile()**
 function (***selectfile** input command) or by using **databasecreate()**
-function (***dbcreate** input command). In both ways program uses
-default set up value which has been set up on "C:\Users\Public\Documents\"
-because of user folder permission. But you can also change the address,
-it's possible using **changeadress()** function (***changeadress** input command).
-After all the work done you have file with which you can do different acts
-such as open and view the file, add data, delete file and another.<br>
+function (***dbcreate** input command). In both ways, the program uses
+default set up value, which has been set up on "C:\Users\Public\Documents\"
+because of user folder permissions. But you can also change the address,
+it's possible using the **changeadress()** function (***changeadress** input command).
+After all the work is done, you have a file with which you can do different acts
+such as open and view the file, add data, delete the file, and another.<br>
 ( try *help command ʕ•́ᴥ•̀ʔっ )
 <br>
 
