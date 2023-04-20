@@ -82,4 +82,4 @@ such as open and view the file, add data, delete file and another.<br>
 _______________________________
 
 by [checkhtistape](https://github.com/checkthistape)
->MIT LICENSE
+>MIT License [©](https://github.com/checkthistape/databaseimitating/blob/main/LICENSE) 
