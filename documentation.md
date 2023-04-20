@@ -1,5 +1,4 @@
-**databaseimitating** by [checkthistape](https://github.com/checkthistape)
-
+**databaseimitating** by [checkhtistape](https://github.com/checkthistape)
 https://github.com/checkthistape/databaseimitating
 _______________________________
 **:LORE:**
@@ -7,7 +6,7 @@ _______________________________
 Originally this project had to be a solution of the school task,
 but during the problem solving _*(It should be system which can
 create, update, search and delete requests with the list of
-variables **[id, Name, Surname, Job, Salary]** like in databases so
+variables [id, Name, Surname, Job, Salary] like in databases so
 because of it I've named this project like **databaseimitating**)*_
 I was expanding the functionality of the **databaseimitating** class
 until it looked more like a notepad program class. Regardless it's possible to
@@ -15,7 +14,7 @@ use my program like a very basic notepad utility.
 
 **:FUNCTIONALITY:**
 
-\> *help
+> *help
 
 	Write *dbcreate to create a new file
 	Write *open to open created database
@@ -38,11 +37,37 @@ use my program like a very basic notepad utility.
 
 **:DESCRIPTION:**
 
-Program has been separated on the two parts:
-
--databaseimitationclass.hpp header class file\n
+Program has been separated into the two parts:
+-databaseimitationclass.hpp header class file
 -databaseimitate.cpp main function file
-<p>Wow</p>
+
+All functions and functionality of project is placed
+in **.hpp** header class file. Meanwhile in main **.cpp** file
+I placed only the project's declaration. So describing of code's
+logic. *(like it supposed to be)*
+
+- There is a while loop in **.cpp** file which catches user
+requests until the program ends using a very plain concept.
+*(list of commands you can see slightly above this text)*
+
+Example:
+```c++
+while(true){
+	cin>>userRequest;
+	if(userRequest=="*help"){...}
+} 
+```
+
+- For functional use of the program user needs to create or select
+file and there are two ways of continuing: by using **selectfile()**
+function (***selectfile** input command) or by using **databasecreate()**
+function (***dbcreate** input command). In both ways program uses
+default set up value which has been set up on "C:\Users\Public\Documents\"
+because of user folder permission. But you can also change the address,
+it's possible using **changeadress()** function (***changeadress** input command).
+After all the work done you have file with which you can do different acts
+such as open and view the file, add data, delete file and another.
+( try *help command ʕ•́ᴥ•̀ʔっ )
 
 _______________________________
-by [checkthistape](https://github.com/checkthistape)
+by [checkhtistape](https://github.com/checkthistape)
