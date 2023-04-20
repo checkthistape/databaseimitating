@@ -69,7 +69,8 @@ it's possible using **changeadress()** function (***changeadress** input command
 After all the work done you have file with which you can do different acts
 such as open and view the file, add data, delete file and another.<br>
 ( try *help command ʕ•́ᴥ•̀ʔっ )
-
-_______________________________
+<br>
 ![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
+_______________________________
+
 by [checkhtistape](https://github.com/checkthistape)
