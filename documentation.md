@@ -39,7 +39,9 @@ use my program like a very basic notepad utility.
 **:DESCRIPTION:**
 
 Program has been separated on the two parts:
+
 -databaseimitationclass.hpp header class file
+
 -databaseimitate.cpp main function file
 
 
