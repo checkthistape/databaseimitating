@@ -42,10 +42,7 @@ Program has been separated on the two parts:
 
 -databaseimitationclass.hpp header class file\n
 -databaseimitate.cpp main function file
-<hr>
-
-
-
+<p>Wow</p>
 
 _______________________________
 by checkhtistape
