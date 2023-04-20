@@ -7,7 +7,7 @@ _______________________________
 Originally this project had to be a solution of the school task,
 but during the problem solving _*(It should be system which can
 create, update, search and delete requests with the list of
-variables [id, Name, Surname, Job, Salary] like in databases so
+variables **[id, Name, Surname, Job, Salary]** like in databases so
 because of it I've named this project like **databaseimitating**)*_
 I was expanding the functionality of the **databaseimitating** class
 until it looked more like a notepad program class. Regardless it's possible to
