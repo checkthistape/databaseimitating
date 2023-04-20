@@ -71,4 +71,5 @@ such as open and view the file, add data, delete file and another.<br>
 ( try *help command ʕ•́ᴥ•̀ʔっ )
 
 _______________________________
+![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
 by [checkhtistape](https://github.com/checkthistape)
