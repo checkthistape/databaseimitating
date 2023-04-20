@@ -1,4 +1,5 @@
 **databaseimitating** by checkhtistape
+
 https://github.com/checkthistape/databaseimitating
 _______________________________
 **:LORE:**
@@ -12,9 +13,9 @@ I was expanding the functionality of the **databaseimitating** class
 until it looked more like a notepad program class. Regardless it's possible to
 use my program like a very basic notepad utility.
 
-*:FUNCTIONALITY:*
+**:FUNCTIONALITY:**
 
-> *help
+\> *help
 
 	Write *dbcreate to create a new file
 	Write *open to open created database
