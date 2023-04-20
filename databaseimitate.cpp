@@ -18,6 +18,7 @@ int main()
 			else if (request == "*fileexist") { Object.fileexist(); }
 			else if (request == "*dbcreate") { Object.databasecreate(); }
 			else if (request == "*add") { Object.add(); }
+			else if (request == "*find") { Object.search(Object.input); }
 			else if (request == "*showadress") { Object.getadresscout(); }
 			else if (request == "*showfilename") { Object.showfilename(); }
 			else if (request == "*eraseselfile") { Object.eraseselfile(); }
@@ -36,4 +37,10 @@ int main()
 	std::cout << "\n\nThe program has ended!" << std::endl;
 	return 0;
 }
+/*
+* TODO:
+* 1. Add howto in console with gotoxy function
+* 
+* 
 
+*/

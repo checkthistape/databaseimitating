@@ -23,6 +23,8 @@ private:
 
 public:
 	string input;
+	int line = 1;
+
 	int id = 0;
 	int damn = 8;
 
@@ -38,14 +40,14 @@ public:
 	void getadresscout() { std::cout << _adress << std::endl; }
 	void changeadress(string adress)
 	{
-		std::cout << "Write your adress where you want to place your file." << std::endl;
+		std::cout << "Type your adress where you want to place your file." << std::endl;
 		cin >> adress;
 		if (_file != "") { _adress = adress + "\\" + _file; }
 		else { _adress = adress + "\\" + _file; }
 	}
 	void selectfile(string file)
 	{
-		std::cout << "Write your filename which you want to select." << std::endl;
+		std::cout << "Type your filename which you want to select." << std::endl;
 		cin >> file;
 		size_t found = file.find(_extension);
 		if (_file == "") {
@@ -70,28 +72,28 @@ public:
 	}
 	void instructions()
 	{
-		cout << "\n Write *dbcreate to create a new file";
-		//cout << "\nWrite *mode to select different mods: 1 - mod is created for default actions with files; 2 - ??";
-		cout << "\n Write *open to open created database";
-		cout << "\n Write *fileexist to check file existing";
-		cout << "\n Write *remove to remove file";
-		cout << "\n Write *showfilename to show file name";
-		cout << "\n Write *showadress to show adress of file";
-		cout << "\n Write *changeadress to change adress of your directory";
-		cout << "\n Write *selectfile to choose your file against creating";
-		cout << "\n Write *eraseselfile to erase selected file";
-		cout << "\n Write *exit to exit";
+		cout << "\n Type *dbcreate to create a new file";
+		cout << "\n Type *open to open the created database";
+		cout << "\n Type *fileexist to check for an existing file.";
+		cout << "\n Type *remove to remove the file.";
+		cout << "\n Type *showfilename to show the file name";
+		cout << "\n Type *showadress to show the address of the file";
+		cout << "\n Type *changeadress to change the address of your directory";
+		cout << "\n Type *selectfile to choose your file against creating";
+		cout << "\n Type *eraseselfile to erase the selected file";
+		cout << "\n Type *changeext to change the default extension (which is .txt)";
+		cout << "\n Type *exit to exit";
 		cout << "\n\n .~~~~~~~~~~~~~~~~~~~.Requests to db.~~~~~~~~~~~~~~~~~~~.\n";
-		cout << "\n Write *structure to write a structure for db ^currently does not work!";
-		cout << "\n Write *add to insert new information to db";
-		cout << "\n Write *delete to delete information from db";
-		cout << "\n Write *find to find information from db";
-		cout << "\n Write *replace to delete information from db" << std::endl << std::endl;
+		cout << "\n Type *structure to Type a structure for db (>_<) ^^this currently does not work, sorry..!";
+		cout << "\n Type *add to insert a new information to db";
+		cout << "\n Type *delete to delete an information from db";
+		cout << "\n Type *find to find information from db";
+		cout << "\n Type *replace to delete information from db" << std::endl << std::endl;
 
 	}
 	/*.~~~~~~~~~.Action.~~~~~~~~~*/
 	void databasecreate() {
-		cout << " Write a name of database you want to create: ";
+		cout << " Type a name of database you want to create: ";
 		string name;
 		cin >> name;
 		setfilename(name);
@@ -121,16 +123,19 @@ public:
 		{
 			fstream filex(_adress, ios::in);
 			string data;
-
+			
 			if (filex.good() and filex.is_open())
 			{
 				std::cout << std::endl << "File has opened on adress: " << _adress << std::endl;
 				std::cout << "\n*.~~~~~~~~~~~~~~.*.~~~~~~~~~~~~~~.*" << std::endl;
-				while (getline(filex, data)) { cout << data << endl; }
+				while (getline(filex, data)) { cout << line++ << " \t" << data << endl; }
 				std::cout << "*.~~~~~~~~~~~~~~.*.~~~~~~~~~~~~~~.*\n" << std::endl;
 			}
+			line = 0;
+			filex.close();
 		}
 		else { std::cout << "You did not select file or create it, try to do it and then return to the command!" << std::endl; }
+
 
 	}
 
@@ -156,11 +161,13 @@ public:
 	}
 	/*.~~~~~~~~~.Db actions.~~~~~~~~~*/
 	void writing() {
-		if (fileexistbool() == true) {
+		if (fileexistbool() == true) 
+		{
 			ofstream filex;
 			filex.open(_adress, ios::app);
 
-			if (getadress() != "") {
+			if (getadress() != "")
+			{
 				if (filex.is_open())
 				{
 
@@ -186,6 +193,7 @@ public:
 					// cin >> data;
 
 				}
+
 				else {
 					std::cout << "Your file was not create because: 1. maybe, your adress is invalid, adress: " << _adress << "\n\n";
 				}
@@ -195,11 +203,35 @@ public:
 	}
 	void add() {
 		int request_numb;
-		std::cout << "Write the quantity of request to database: "; cin >> request_numb;
+		std::cout << "Type the quantity of request to database: "; cin >> request_numb;
 
 		for (int j = 0; j < request_numb; j++) {
 			writing();
 		}
+	}
+	void search(string input) {
+		std::cout << "Type what do you want to find: "; cin >> input;
+		if (_file != "") {
+			fstream file(_adress, ios::in | ios::out);
+			string data;
+			
+			if (file.is_open()) {
+				std::cout << "Positions of "<<input << " are: " << std::endl;
+				while (/*file.eof() != true*/getline(file,data))
+				{
+					line++;
+					size_t found = data.find(input);
+					if (found < 18446744073709551615) { std::cout <<"line: "<< line << " position: " << found << std::endl; }
+					
+				}
+				line = 0;
+			}
+			else { std::cout << "Error while opening the file" << std::endl; }
+			
+		}
+		else { std::cout << "Your file is not selected or made yet"<<std::endl; }
+		
+		
 	}
 
 };
