@@ -1,6 +1,8 @@
 # databaseimitating
 <h4>databaseimitating is a program using which you can do different actions with files like open, edit, remove, and of course the main functional: after creating a file in any desired extension, you can add your data and fill the "database" file as many times as you have memory on your disk. All the data will have the fields Id, Name, Surname, Job, and Salary, where Id fills automatically no matter what file you select or create. </h4>
+
 <br>
+
 [**databaseimitating**](https://github.com/checkthistape/databaseimitating) by [checkhtistape](https://github.com/checkthistape)
 _______________________________
 <h3>:LORE:</h3>
