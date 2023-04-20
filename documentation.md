@@ -40,9 +40,9 @@ use my program like a very basic notepad utility.
 
 Program has been separated on the two parts:
 
--databaseimitationclass.hpp header class file<br>
+-databaseimitationclass.hpp header class file\n
 -databaseimitate.cpp main function file
-
+<hr>
 
 
 
