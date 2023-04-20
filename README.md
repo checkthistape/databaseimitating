@@ -10,7 +10,7 @@ _______________________________
 Originally, this project had to be a solution to the school task,
 but during the problem solving _*(it should be a system that can
 create, update, search, and delete requests with a list of variables
-*[id, Name, Surname, Job, Salary]* like in databases, so because of that,
+**[id, Name, Surname, Job, Salary]** like in databases, so because of that,
 I've named this project **databaseimitating**)*_, I was expanding the functionality
 of the **databaseimitating** class until it looked more like a notepad program class.
 Regardless, it's possible to use my program like a very basic notepad utility.
