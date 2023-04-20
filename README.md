@@ -19,24 +19,25 @@ Regardless, it's possible to use my program like a very basic notepad utility.
 
 \> *help
 
-	Write *dbcreate to create a new file
-	Write *open to open created database
-	Write *fileexist to check file existing
-	Write *remove to remove file
-	Write *showfilename to show file name
-	Write *showadress to show adress of file
-	Write *changeadress to change adress of your directory
-	Write *selectfile to choose your file against creating
-	Write *eraseselfile to erase adress to the selected file
-	Write *exit to exit
-	
-	.~~~~~~~~~~~~~~~~~~~.Requests to db.~~~~~~~~~~~~~~~~~~~.
-	
-	Write *structure to write a structure for db ^currently does not work, in line to adding!
-	Write *add to insert new information to db
-	Write *delete to delete information from db
-	Write *find to find information from db
-	Write *replace to delete information from db" << std::endl << std::endl;
+	 Type *dbcreate to create a new file";
+ 	 Type *open to open the created database";
+ 	 Type *fileexist to check for an existing file.";
+	 Type *remove to remove the file.";
+ 	 Type *showfilename to show the file name";
+	 Type *showadress to show the address of the file";
+	 Type *changeadress to change the address of your directory";
+	 Type *selectfile to choose your file against creating";
+	 Type *eraseselfile to erase the selected file";
+	 Type *changeext to change the default extension (which is .txt)";
+	 Type *exit to exit";
+	 
+	 .~~~~~~~~~~~~~~~~~~~.Requests to db.~~~~~~~~~~~~~~~~~~~.";
+	 
+	 Type *structure to Type a structure for db (>_<) ^^this currently does not work, sorry..!";
+	 Type *add to insert a new information to db";
+	 Type *delete to delete an information from db";
+	 Type *find to find information from db";
+	 Type *replace to delete information from db"
 
 <h3>:DESCRIPTION:</h3>
 
