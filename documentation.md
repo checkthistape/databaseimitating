@@ -14,7 +14,7 @@ use my program like a very basic notepad utility.
 
 **:FUNCTIONALITY:**
 
-/> *help
+\> *help
 
 	Write *dbcreate to create a new file
 	Write *open to open created database
@@ -38,8 +38,8 @@ use my program like a very basic notepad utility.
 **:DESCRIPTION:**
 
 Program has been separated into the two parts:<br>
-<br> * databaseimitationclass.hpp header class file
-<br> * databaseimitate.cpp main function file
+<br> - databaseimitationclass.hpp header class file
+<br> - databaseimitate.cpp main function file
 
 All functions and functionality of project is placed
 in **.hpp** header class file. Meanwhile in main **.cpp** file
