@@ -1,7 +1,7 @@
 # databaseimitating
 [**databaseimitating**](https://github.com/checkthistape/databaseimitating) by [checkhtistape](https://github.com/checkthistape)
 _______________________________
-<h3>**:LORE:**</h3>
+<h3>:LORE:</h3>
 
 Originally this project had to be a solution of the school task,
 but during the problem solving _*(It should be system which can
@@ -12,7 +12,7 @@ I was expanding the functionality of the **databaseimitating** class
 until it looked more like a notepad program class. Regardless it's possible to
 use my program like a very basic notepad utility.
 
-**:FUNCTIONALITY:**
+<h3>:FUNCTIONALITY:</h3>
 
 \> *help
 
@@ -35,7 +35,7 @@ use my program like a very basic notepad utility.
 	Write *find to find information from db
 	Write *replace to delete information from db" << std::endl << std::endl;
 
-**:DESCRIPTION:**
+<h3>:DESCRIPTION:</h3>
 
 Program has been separated into the two parts:<br>
 <br> - [databaseimitationclass.hpp](https://github.com/checkthistape/databaseimitating/blob/main/headers/databaseimitationclass.hpp) header class file
