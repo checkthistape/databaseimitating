@@ -1,4 +1,4 @@
-**databaseimitating** by checkthistape
+**databaseimitating** by [checkthistape](https://github.com/checkthistape)
 
 https://github.com/checkthistape/databaseimitating
 _______________________________
