@@ -73,6 +73,18 @@ it's possible using the **changeadress()** function (***changeadress** input com
 After all the work is done, you have a file with which you can do different acts
 such as open and view the file, add data, delete the file, and another.<br>
 ( try *help command ʕ•́ᴥ•̀ʔっ )
+
+For functional use of the program, the user needs to create or select 
+a file, and there are two ways of continuing: by using the **selectfile()**
+function (***selectfile** input command) or by using the **databasecreate()**
+function (***dbcreate** input command). In both cases, the program uses
+the default set-up value, which has been set up on **"C:\Users\Public\Documents"**
+because of user folder permissions. But you can also change the address, 
+it's possible using the **changeadress()** function (***changeadress** input command).
+After all the work is done, you have a file with which you can do different acts,
+such as open and view the file, add data, delete the file, and others.<br>
+( try *help command ʕ•́ᴥ•̀ʔっ )
+
 <br>
 
 ![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)
