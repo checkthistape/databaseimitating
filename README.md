@@ -33,7 +33,7 @@ Regardless, it's possible to use my program like a very basic notepad utility.
 	 
 	 .~~~~~~~~~~~~~~~~~~~.Requests to db.~~~~~~~~~~~~~~~~~~~.";
 	 
-	 Type *structure to Type a structure for db (>_<) ^^this currently does not work, sorry..!";
+	 Type *structure to Type a structure for db (>_<) ^^this feature currently does not work, sorry..!";
 	 Type *add to insert a new information to db";
 	 Type *delete to delete an information from db";
 	 Type *find to find information from db";
